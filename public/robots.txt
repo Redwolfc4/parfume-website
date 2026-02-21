@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parfume-website-6zvr2a2ldv.edgeone.dev/sitemap.xml
