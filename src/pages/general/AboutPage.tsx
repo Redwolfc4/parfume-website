@@ -19,13 +19,13 @@ export default function AboutPage() {
                 {/* Story */}
                 <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
                     <div className="relative">
-                        <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-gradient-to-br from-aura-gold/10 to-aura-black-light border border-aura-gold/10 flex items-center justify-center">
+                        <div className=" rounded-2xl overflow-hidden  from-aura-gold/10 to-aura-black-light border border-aura-gold/10 flex items-center justify-center">
                             <div className="text-center px-8">
-                                <div className="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-aura-gold to-aura-gold-dark flex items-center justify-center mb-6">
-                                    <span className="font-serif text-4xl font-bold text-aura-black">A</span>
-                                </div>
-                                <p className="font-serif text-2xl text-gradient-gold">Est. 2020</p>
-                                <p className="text-aura-gray text-sm mt-2">Jakarta, Indonesia</p>
+                                <img
+                                    src="/nano-banana.png"
+                                    alt="Nano Banana"
+                                    className="w-full h-full object-contain filter drop-shadow-[0_0_15px_rgba(212,168,83,0.5)]"
+                                />
                             </div>
                         </div>
                     </div>

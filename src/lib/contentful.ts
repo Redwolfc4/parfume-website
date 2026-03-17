@@ -2,9 +2,9 @@ import { createClient } from 'contentful';
 import type { ContentfulProduct, Product, ProductSkeleton } from '@/types';
 
 const client = createClient({
-  space: '5uek20g5xpta',
-  accessToken: 'ZJAnUgWPrLrqdFCJB8tjsO1NAm4MtD_NEZ6v4369aVk',
-  host: 'cdn.contentful.com',
+  space: import.meta.env.VITE_CONTENTFUL_SPACE_ID,
+  accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN,
+  host: import.meta.env.VITE_CONTENTFUL_HOST || 'cdn.contentful.com',
 });
 
 // Helper to extract plain text from Contentful Rich Text Document
